@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ========================================================================
+       Primary Canonical Homepage
+       ======================================================================== -->
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Flagship Work Image -->
+    <image:image>
+      <image:loc>https://pixoradigitalstudio.netlify.app/assets/images/sialkot-sweets-hero.jpg</image:loc>
+      <image:title>Sialkot Sweets and Bakers - E-Commerce Flagship Case Study</image:title>
+      <image:caption>High-performance digital storefront engineered by Pixora Digital Studio for Sialkot Sweets and Bakers</image:caption>
+    </image:image>
+
+    <!-- Studio Founder & Architect Image -->
+    <image:image>
+      <image:loc>https://pixoradigitalstudio.netlify.app/assets/images/azan-qasim-owner.png</image:loc>
+      <image:title>Azan Qasim Awan - Founder and Lead Frontend Engineer</image:title>
+      <image:caption>Azan Qasim Awan, Freelance Web Developer and UI/UX Engineer based in Gujranwala, Pakistan</image:caption>
+    </image:image>
+
+    <!-- Brand Logo -->
+    <image:image>
+      <image:loc>https://pixoradigitalstudio.netlify.app/assets/images/pixora-logo.svg</image:loc>
+      <image:title>Pixora Digital Studio Official Logo</image:title>
+      <image:caption>Pixora Digital Studio - Ideas Into Digital Experiences</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ========================================================================
+       Major Portfolio & Service Anchors (Direct Navigation Deep Links)
+       ======================================================================== -->
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#portfolio</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#owner</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#services</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#solutions</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#about</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#process</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pixoradigitalstudio.netlify.app/#contact</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>

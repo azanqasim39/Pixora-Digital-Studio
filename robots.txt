@@ -1,0 +1,32 @@
+# ==============================================================================
+# Pixora Digital Studio - robots.txt
+# Website: https://pixoradigitalstudio.netlify.app
+# Purpose: Optimal Crawling & Indexing Directives for Search Engines
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /favicon.svg
+
+# Major Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Canonical XML Sitemap & Host
+Sitemap: https://pixoradigitalstudio.netlify.app/sitemap.xml
+Host: https://pixoradigitalstudio.netlify.app

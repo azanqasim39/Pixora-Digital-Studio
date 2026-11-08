@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="jrCksSayzQFoXqJlhiesXhWE3s2otnIjWoD2Qdjpr5o" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIXORA DIGITAL STUDIO — Ideas Into Digital Experiences</title>
+  <meta name="description" content="Pixora Digital Studio crafts high-performance custom websites, e-commerce storefronts, and intuitive digital interfaces engineered by Azan Qasim Awan.">
+  <meta name="keywords" content="Pixora Digital Studio, Pixora, Azan Qasim Awan, web development, website design, UI UX design, e-commerce, custom web apps, digital studio">
+  <meta name="author" content="Azan Qasim Awan — Pixora Digital Studio">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PIXORA DIGITAL STUDIO — Ideas Into Digital Experiences">
+  <meta property="og:description" content="Building Digital Experiences That Move Businesses Forward. Explore our bespoke websites and solutions.">
+  <meta property="og:image" content="assets/images/sialkot-sweets-hero.jpg">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Site Header & Navigation
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Pixora Digital Studio Home">
+        <img src="assets/images/pixora-logo.svg" alt="PIXORA DIGITAL STUDIO Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Nav (Reordered with Portfolio up front) -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#owner" class="nav-link">Owner</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#solutions" class="nav-link">Solutions</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         Hero Section
+         ======================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Hero Copy -->
+          <div class="hero-content motion-fade-up">
+            <div class="section-tag">
+              <span class="badge-dot"></span>
+              <span>Ideas Into Digital Experiences</span>
+            </div>
+
+            <h1 class="hero-title">
+              Building Digital Experiences That <span class="gradient-text">Move Businesses Forward.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Pixora Digital Studio crafts bespoke, high-performance websites, e-commerce platforms, and intuitive digital interfaces engineered to elevate brand credibility and convert visitors into loyal clients.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary">
+                <i class="fa-solid fa-shapes"></i>
+                <span>Explore Featured Work</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Start a Project</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Micro Metrics / Proof -->
+            <div class="hero-metrics">
+              <div class="metric-item">
+                <div class="metric-number">100<span>%</span></div>
+                <div class="metric-label">Bespoke Clean Code</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-number">&lt;1<span>s</span></div>
+                <div class="metric-label">Optimized Load Speeds</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-number">Direct<span></span></div>
+                <div class="metric-label">Owner Collaboration</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Visual Tech Mockup (Radar & Status Badge) -->
+          <div class="hero-visual-wrapper motion-fade-up delay-1">
+            <div class="tech-window-card">
+              <div class="tech-window-header">
+                <div class="window-dots">
+                  <span class="w-dot w-red"></span>
+                  <span class="w-dot w-yellow"></span>
+                  <span class="w-dot w-green"></span>
+                </div>
+                <div class="window-domain">pixora.studio</div>
+                <div style="width: 32px;"></div>
+              </div>
+
+              <div class="tech-window-body">
+                <!-- Concentric Radar Rings -->
+                <div class="radar-circles">
+                  <div class="r-circle c-1"></div>
+                  <div class="r-circle c-2"></div>
+                  <div class="r-circle c-3"></div>
+                  <div class="r-circle c-4"></div>
+                  <div class="radar-sweep"></div>
+                </div>
+
+                <!-- Floating Status Badge (Top-Left) -->
+                <div class="float-badge badge-top-left">
+                  <span class="status-dot-green"></span>
+                  <div>
+                    <div class="badge-text-title">System Status</div>
+                    <div class="badge-text-main">All Systems Go</div>
+                  </div>
+                </div>
+
+                <!-- Central Studio Node -->
+                <div class="center-node">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+
+                <!-- Floating Innovation Pill (Bottom-Right) -->
+                <div class="float-badge badge-bottom-right">
+                  <i class="fa-solid fa-wand-magic-sparkles" style="color: #1D58ED;"></i>
+                  <div>
+                    <div class="badge-text-title">Digital Innovation</div>
+                    <div class="badge-text-main">Ideas &rarr; Reality</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Trust & Engineering Standards Bar
+         ======================================================================== -->
+    <section class="trust-banner-section motion-fade-up">
+      <div class="container trust-content">
+        <span class="trust-label">Modern Engineering &amp; Quality Standards</span>
+        <div class="trust-badges-grid">
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Core Web Vitals Ready</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <span>Mobile-First Responsive</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Clean Architecture</span>
+          </div>
+          <div class="trust-badge-item">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <span>Technical SEO Structured</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PORTFOLIO SECTION (MOVED UP FOR IMMEDIATE IMPACT)
+         ======================================================================== -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header motion-fade-up">
+          <div class="section-tag">
+            <span class="badge-dot"></span>
+            <span>Selected Projects</span>
+          </div>
+          <h2 class="section-title">Real Work. Proven Digital Impact.</h2>
+          <p class="section-desc">Live production web portals engineered for high speed, sleek aesthetics, and real client conversions.</p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="portfolio-filter-bar motion-fade-up delay-1">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ecommerce">Client Portals</button>
+        </div>
+
+        <!-- Portfolio Grid (The 2 active projects) -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          
+          <!-- Flagship Project 1: Sialkot Sweets & Bakers -->
+          <div class="project-card featured-project motion-fade-up delay-1 hover-lift" data-category="ecommerce">
+            <div class="project-thumbnail-wrapper">
+              <span class="project-featured-badge">
+                <i class="fa-solid fa-star"></i> Featured Case Study
+              </span>
+              <img src="assets/images/sialkot-sweets-hero.jpg" alt="Sialkot Sweets &amp; Bakers Website" class="project-thumbnail">
+            </div>
+            <div class="project-body">
+              <span class="project-category">E-Commerce &amp; Food Ordering</span>
+              <h3 class="project-title">Sialkot Sweets &amp; Bakers</h3>
+              <p class="project-desc">
+                Complete digital storefront for Gujranwala’s historic sweet &amp; confectionery brand since 1951. Built with 12 food categories, pure desi ghee mithai showcases, Arabian Baklava, bakery goods, and seamless mobile navigation.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag-pill">Semantic HTML5</span>
+                <span class="project-tag-pill">Modern CSS3</span>
+                <span class="project-tag-pill">Vanilla JS</span>
+                <span class="project-tag-pill">Schema.org SEO</span>
+                <span class="project-tag-pill">Responsive UI</span>
+              </div>
+              <div class="project-actions">
+                <button class="project-details-btn open-modal-btn" data-project="sialkot-sweets">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: BBQ Today -->
+          <div class="project-card motion-fade-up delay-2 hover-lift" data-category="ecommerce">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/images.jpg" alt="BBQ Today Online Experience" class="project-thumbnail">
+            </div>
+            <div class="project-body">
+              <span class="project-category">Restaurant Ordering Portal</span>
+              <h3 class="project-title">BBQ Today</h3>
+              <p class="project-desc">
+                Dynamic dining and takeout web portal featuring interactive category switching, high-resolution food highlights, and quick ordering pathways tailored for mobile shoppers.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag-pill">Responsive Design</span>
+                <span class="project-tag-pill">Category Filter</span>
+                <span class="project-tag-pill">JavaScript UI</span>
+                <span class="project-tag-pill">Mobile-First</span>
+                <span class="project-tag-pill">Fast Ordering UI</span>
+              </div>
+              <div class="project-actions">
+                <button class="project-details-btn open-modal-btn" data-project="bbq-today">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         OWNER & STUDIO LEADERSHIP SECTION (With New Photo)
+         ======================================================================== -->
+    <section class="founder-section" id="owner">
+      <div class="container">
+        <div class="founder-card motion-fade-up hover-lift">
+          <!-- Left: Owner Photo & Verified Badge -->
+          <div class="founder-image-wrapper">
+            <div class="founder-photo-container">
+              <img src="assets/images/azan-qasim-owner.png" alt="Azan Qasim Awan — Owner of Pixora Digital Studio" class="founder-photo">
+            </div>
+            <div class="founder-badge-pill">
+              <i class="fa-solid fa-crown"></i>
+              <span>Studio Owner &amp; Architect</span>
+            </div>
+          </div>
+
+          <!-- Right: Owner Details & Credentials -->
+          <div class="founder-content">
+            <div class="founder-role-tag">
+              <span class="badge-dot"></span>
+              <span>Founder &amp; Platform Owner</span>
+            </div>
+            
+            <h2 class="founder-name">Azan Qasim Awan</h2>
+            <div class="founder-title-sub">Owner &amp; Lead Frontend Engineer &bull; PIXORA DIGITAL STUDIO</div>
+
+            <p class="founder-bio">
+              Azan Qasim Awan is the owner and lead digital engineer of <strong>PIXORA DIGITAL STUDIO</strong>. Dedicated to building bespoke, high-performance web solutions, Azan personally leads the architecture, modern frontend code, and user journey for every client project.
+            </p>
+            <p class="founder-bio">
+              With a focus on high-speed performance, clean semantic architecture, and conversion-optimized interfaces, Azan has engineered the digital flagships for renowned brands including <strong>Sialkot Sweets &amp; Bakers</strong> and <strong>Bar B Q Today</strong>. Clients work directly with him, eliminating intermediaries and guaranteeing world-class execution.
+            </p>
+
+            <div class="founder-points">
+              <div class="founder-point-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Direct Owner-to-Client Collaboration</span>
+              </div>
+              <div class="founder-point-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Bespoke Code &amp; Zero Bloated Builders</span>
+              </div>
+              <div class="founder-point-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Core Web Vitals &amp; Speed Optimized</span>
+              </div>
+              <div class="founder-point-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>End-to-End Production Deployment</span>
+              </div>
+            </div>
+
+            <div class="founder-actions">
+              <a href="https://wa.me/923061764247?text=Hello%20Azan!%20I%20would%20like%20to%20discuss%20a%20project%20with%20Pixora%20Digital%20Studio." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Chat with Azan on WhatsApp</span>
+              </a>
+              <a href="mailto:azanqasim39@gmail.com" class="btn btn-secondary">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email Azan Directly</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Services Section
+         ======================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header motion-fade-up">
+          <div class="section-tag">
+            <span class="badge-dot"></span>
+            <span>Our Core Capabilities</span>
+          </div>
+          <h2 class="section-title">Technology That Solves Real Problems</h2>
+          <p class="section-desc">From initial concept to deployment, we build digital systems around your business goals.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Website Development -->
+          <div class="service-card motion-fade-up delay-1 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h3 class="service-title">Website Development</h3>
+            <p class="service-desc">
+              Fast, responsive, and scalable modern web experiences built with clean architecture, semantic markup, and optimal performance.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> Semantic HTML5 &amp; Modern CSS3</li>
+              <li><i class="fa-solid fa-check"></i> Modular &amp; Clean Architecture</li>
+              <li><i class="fa-solid fa-check"></i> Lightning Fast Load Times</li>
+            </ul>
+          </div>
+
+          <!-- 2. E-Commerce Development -->
+          <div class="service-card motion-fade-up delay-2 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <h3 class="service-title">E-Commerce Development</h3>
+            <p class="service-desc">
+              Secure, high-converting digital storefronts tailored for retail, restaurants, and growing brands with seamless ordering flows.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> Interactive Product Catalogs</li>
+              <li><i class="fa-solid fa-check"></i> High-Conversion UX Design</li>
+              <li><i class="fa-solid fa-check"></i> Frictionless Customer Journeys</li>
+            </ul>
+          </div>
+
+          <!-- 3. UI/UX Design -->
+          <div class="service-card motion-fade-up delay-3 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-desc">
+              Intuitive, on-brand interfaces that captivate users, communicate your value proposition, and convert visitors into clients.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> High-Fidelity UI Prototyping</li>
+              <li><i class="fa-solid fa-check"></i> Conversion-Driven UX Wireframes</li>
+              <li><i class="fa-solid fa-check"></i> Cohesive Design Systems</li>
+            </ul>
+          </div>
+
+          <!-- 4. Business Websites -->
+          <div class="service-card motion-fade-up delay-1 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3 class="service-title">Business Websites</h3>
+            <p class="service-desc">
+              Corporate and boutique business portals engineered to establish instant authority, showcase credibility, and capture qualified leads.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> Authority-Building Presentation</li>
+              <li><i class="fa-solid fa-check"></i> Strategic Lead Generation Forms</li>
+              <li><i class="fa-solid fa-check"></i> Location &amp; Contact Routing</li>
+            </ul>
+          </div>
+
+          <!-- 5. SEO Optimization -->
+          <div class="service-card motion-fade-up delay-2 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+            </div>
+            <h3 class="service-title">SEO Optimization</h3>
+            <p class="service-desc">
+              Technical SEO architecture, structured data markup, and search engine discoverability to maximize organic rankings and reach.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> Schema.org Structured Data</li>
+              <li><i class="fa-solid fa-check"></i> Open Graph &amp; Meta Optimizations</li>
+              <li><i class="fa-solid fa-check"></i> Core Web Vitals Compliance</li>
+            </ul>
+          </div>
+
+          <!-- 6. Website Maintenance -->
+          <div class="service-card motion-fade-up delay-3 hover-lift">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-wrench"></i>
+            </div>
+            <h3 class="service-title">Website Maintenance</h3>
+            <p class="service-desc">
+              Ongoing performance monitoring, proactive security updates, content revisions, and dependable technical support.
+            </p>
+            <ul class="service-features-list">
+              <li><i class="fa-solid fa-check"></i> Periodic Speed &amp; Health Audits</li>
+              <li><i class="fa-solid fa-check"></i> Routine Content &amp; Menu Updates</li>
+              <li><i class="fa-solid fa-check"></i> Fast Emergency Troubleshooting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Solutions Section
+         ======================================================================== -->
+    <section class="solutions-section" id="solutions">
+      <div class="container">
+        <div class="section-header motion-fade-up">
+          <div class="section-tag">
+            <span class="badge-dot"></span>
+            <span>Tailored Solutions</span>
+          </div>
+          <h2 class="section-title">Custom Software Built for Your Industry</h2>
+          <p class="section-desc">Purpose-built systems designed around how your business actually operates.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <div class="solution-card motion-fade-up delay-1 hover-lift">
+            <div class="solution-icon-box">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h3 class="solution-title">Restaurant &amp; Food Portals</h3>
+            <p class="solution-desc">
+              Interactive visual menus, deals carousels, branch locators, and automated order dispatch systems.
+            </p>
+            <span class="solution-tag">Hospitality &amp; Food</span>
+          </div>
+
+          <div class="solution-card motion-fade-up delay-2 hover-lift">
+            <div class="solution-icon-box">
+              <i class="fa-solid fa-store"></i>
+            </div>
+            <h3 class="solution-title">Retail &amp; Storefronts</h3>
+            <p class="solution-desc">
+              Dynamic product catalogs, category filtering, cart management, and seamless order collection channels.
+            </p>
+            <span class="solution-tag">Retail &amp; Brands</span>
+          </div>
+
+          <div class="solution-card motion-fade-up delay-3 hover-lift">
+            <div class="solution-icon-box">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <h3 class="solution-title">Corporate &amp; Professional</h3>
+            <p class="solution-desc">
+              High-trust agency, legal, consultancy, and business sites designed to convert visitors into inquiries.
+            </p>
+            <span class="solution-tag">Professional Services</span>
+          </div>
+
+          <div class="solution-card motion-fade-up delay-4 hover-lift">
+            <div class="solution-icon-box">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+            <h3 class="solution-title">Custom Web Portals</h3>
+            <p class="solution-desc">
+              Tailored client portals, lightweight administrative dashboards, and internal business workflow utilities.
+            </p>
+            <span class="solution-tag">Custom Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         About Section
+         ======================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text-col motion-fade-up">
+            <div class="section-tag">
+              <span class="badge-dot"></span>
+              <span>About Pixora Digital Studio</span>
+            </div>
+            <h2 class="about-heading">
+              Turning Complex Ideas Into Intuitive, High-Impact Digital Realities.
+            </h2>
+            <p class="about-description">
+              Pixora Digital Studio is a creative design and modern frontend engineering studio founded on a simple principle: businesses don’t need bloated, sluggish templates — they need purpose-built digital experiences that perform flawlessly, build instant trust, and drive meaningful growth.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="pillar-content">
+                  <h4>Bespoke Engineering</h4>
+                  <p>Hand-crafted code with zero excess baggage, ensuring fast load times and clean structure.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+                <div class="pillar-content">
+                  <h4>User-Centric UI/UX</h4>
+                  <p>Every layout, typography pairing, and user flow is calibrated to eliminate friction and maximize conversions.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-handshake-angle"></i>
+                </div>
+                <div class="pillar-content">
+                  <h4>Direct Partnership</h4>
+                  <p>You collaborate directly with the lead developer and designer, ensuring rapid iterations without agency bureaucracy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Studio Metrics -->
+          <div class="about-visual-col motion-fade-up delay-2">
+            <div class="about-card-mockup hover-lift">
+              <h3 style="font-size: 1.15rem; margin-bottom: 18px; color: var(--navy-900);">Studio Benchmarks</h3>
+              
+              <div class="studio-stat-box">
+                <div class="stat-header">
+                  <span class="stat-title"><i class="fa-solid fa-gauge-high" style="color: #1D58ED; margin-right: 6px;"></i> Performance &amp; Speed</span>
+                  <span class="stat-val">99 / 100</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 99%;"></div>
+                </div>
+              </div>
+
+              <div class="studio-stat-box">
+                <div class="stat-header">
+                  <span class="stat-title"><i class="fa-solid fa-mobile" style="color: #06B6D4; margin-right: 6px;"></i> Mobile Responsiveness</span>
+                  <span class="stat-val">100%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+
+              <div class="studio-stat-box">
+                <div class="stat-header">
+                  <span class="stat-title"><i class="fa-solid fa-magnifying-glass" style="color: #1D58ED; margin-right: 6px;"></i> SEO Optimization</span>
+                  <span class="stat-val">98%</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 98%;"></div>
+                </div>
+              </div>
+
+              <div class="studio-stat-box">
+                <div class="stat-header">
+                  <span class="stat-title"><i class="fa-solid fa-check-double" style="color: #10B981; margin-right: 6px;"></i> Cross-Browser Reliability</span>
+                  <span class="stat-val">Flawless</span>
+                </div>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Work Process Section (01 - 04)
+         ======================================================================== -->
+    <section class="process-section" id="process">
+      <div class="container">
+        <div class="section-header motion-fade-up">
+          <div class="section-tag">
+            <span class="badge-dot"></span>
+            <span>How We Work</span>
+          </div>
+          <h2 class="section-title">A Clear, Collaborative Process</h2>
+          <p class="section-desc">From the initial strategy conversation to launch day, our 4-step workflow guarantees complete clarity.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card motion-fade-up delay-1 hover-lift">
+            <div class="process-card-header">
+              <div class="process-icon-box">
+                <i class="fa-regular fa-comments"></i>
+              </div>
+              <span class="process-number">01</span>
+            </div>
+            <h3 class="process-step-title">Discover</h3>
+            <p class="process-step-desc">
+              We start with a thorough analysis of your business goals, target audience, brand aesthetic, and technical requirements.
+            </p>
+          </div>
+
+          <div class="process-card motion-fade-up delay-2 hover-lift">
+            <div class="process-card-header">
+              <div class="process-icon-box">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <span class="process-number">02</span>
+            </div>
+            <h3 class="process-step-title">Design</h3>
+            <p class="process-step-desc">
+              We craft clean wireframes and modern, conversion-focused UI prototypes so you see and approve the experience before coding.
+            </p>
+          </div>
+
+          <div class="process-card motion-fade-up delay-3 hover-lift">
+            <div class="process-card-header">
+              <div class="process-icon-box">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="process-number">03</span>
+            </div>
+            <h3 class="process-step-title">Build</h3>
+            <p class="process-step-desc">
+              We write clean, standards-compliant, and ultra-responsive code optimized for lightning speed, SEO, and device compatibility.
+            </p>
+          </div>
+
+          <div class="process-card motion-fade-up delay-4 hover-lift">
+            <div class="process-card-header">
+              <div class="process-icon-box">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <span class="process-number">04</span>
+            </div>
+            <h3 class="process-step-title">Launch &amp; Support</h3>
+            <p class="process-step-desc">
+              We ship the website, perform final audits, connect your domain, and provide ongoing technical maintenance and support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         High-Impact CTA Banner
+         ======================================================================== -->
+    <div class="container cta-banner-wrapper motion-fade-up">
+      <div class="cta-banner-card">
+        <span class="cta-pre-tag">HAVE AN IDEA?</span>
+        <h2 class="cta-main-headline">Let's Build It.</h2>
+        <p class="cta-subtitle">
+          Partner with Pixora Digital Studio to transform your business idea into a powerful, high-converting digital product.
+        </p>
+        <a href="#contact" class="btn btn-cta-white">
+          <span>Start the Conversation</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- ========================================================================
+         Contact & Project Inquiry Section
+         ======================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left Column: Direct Channels -->
+          <div class="contact-info-col motion-fade-up">
+            <div class="section-tag">
+              <span class="badge-dot"></span>
+              <span>Get In Touch</span>
+            </div>
+            <h2 class="contact-col-title">Let’s Discuss Your Next Digital Project</h2>
+            <p class="contact-col-desc">
+              Whether you need a new website from scratch, an e-commerce storefront, a redesign, or ongoing technical support, Pixora Digital Studio is ready to help you move forward.
+            </p>
+
+            <div class="contact-channels-list">
+              <!-- WhatsApp Channel -->
+              <a href="https://wa.me/923061764247?text=Hello%20Azan!%20I%20would%20like%20to%20discuss%20a%20project%20with%20Pixora%20Digital%20Studio." target="_blank" rel="noopener" class="channel-card hover-lift">
+                <div class="channel-icon-box whatsapp-bg">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="channel-meta">
+                  <h5>WhatsApp Quick Chat</h5>
+                  <div class="channel-val">+92 306 1764247 <span style="font-size: 0.74rem; color: #10B981; font-weight: normal;">(Instant Reply)</span></div>
+                </div>
+              </a>
+
+              <!-- Email Channel -->
+              <div class="channel-card hover-lift" id="copyEmailBtn" style="cursor: pointer;" title="Click to copy email">
+                <div class="channel-icon-box">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="channel-meta">
+                  <h5>Direct Email (Click to Copy)</h5>
+                  <div class="channel-val">azanqasim39@gmail.com</div>
+                </div>
+              </div>
+
+              <!-- Location / Hours -->
+              <div class="channel-card hover-lift">
+                <div class="channel-icon-box">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="channel-meta">
+                  <h5>Studio Hours &amp; Availability</h5>
+                  <div class="channel-val">Daily: 6:00 PM &ndash; 1:00 AM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Project Inquiry Form -->
+          <div class="inquiry-card motion-fade-up delay-2 hover-lift">
+            <h3 class="inquiry-form-title">Send a Project Inquiry</h3>
+            <p class="inquiry-form-subtitle">Fill in the details below and Azan will get back to you promptly.</p>
+
+            <form id="projectInquiryForm">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="inqName" class="form-label">Your Name *</label>
+                  <input type="text" id="inqName" class="form-control" placeholder="e.g. Ali Ahmed" required>
+                </div>
+                <div class="form-group">
+                  <label for="inqContact" class="form-label">Email or WhatsApp *</label>
+                  <input type="text" id="inqContact" class="form-control" placeholder="e.g. ali@domain.com or phone" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="inqService" class="form-label">Interested Service</label>
+                  <select id="inqService" class="form-control">
+                    <option value="Website Development">Website Development</option>
+                    <option value="E-Commerce Development">E-Commerce Development</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="Business Website">Business Website</option>
+                    <option value="SEO Optimization">SEO Optimization</option>
+                    <option value="Website Maintenance">Website Maintenance</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inqBudget" class="form-label">Estimated Budget</label>
+                  <select id="inqBudget" class="form-control">
+                    <option value="Standard (< $500)">Standard Range</option>
+                    <option value="Medium ($500 - $1,500)">Medium Range</option>
+                    <option value="Enterprise ($1,500+)">Enterprise / Comprehensive</option>
+                    <option value="Flexible / To Discuss">Flexible / To Discuss</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="inqMessage" class="form-label">Project Details &amp; Goals *</label>
+                <textarea id="inqMessage" class="form-control" placeholder="Briefly describe what your business needs..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <span>Submit Inquiry</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <button type="button" class="btn btn-whatsapp" id="inquiryWhatsappBtn" style="width: 100%;">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>Send Directly via WhatsApp</span>
+                </button>
+                <p class="form-note">We respect your privacy. Direct developer communication guaranteed.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Contrasting Dark Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand-col">
+          <img src="assets/images/pixora-logo-white.svg" alt="PIXORA DIGITAL STUDIO" class="footer-logo-img">
+          <p class="footer-brand-desc">
+            Ideas Into Digital Experiences. Pixora Digital Studio is dedicated to architecting clean, modern, and high-converting web solutions for forward-thinking businesses.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/923061764247" target="_blank" rel="noopener" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:azanqasim39@gmail.com" class="social-icon-btn" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links (Reordered with Portfolio up front) -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#owner">Owner</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#about">About Pixora</a></li>
+            <li><a href="#process">How We Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">E-Commerce Development</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+            <li><a href="#services">Business Websites</a></li>
+            <li><a href="#services">SEO Optimization</a></li>
+            <li><a href="#services">Website Maintenance</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Direct Details -->
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title">Direct Inquiries</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <div>
+                <span style="font-size: 0.72rem; color: #64748B; display: block;">Email Us</span>
+                <a href="mailto:azanqasim39@gmail.com" style="color: #F8FAFC;">azanqasim39@gmail.com</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <span style="font-size: 0.72rem; color: #64748B; display: block;">WhatsApp</span>
+                <a href="https://wa.me/923061764247" target="_blank" rel="noopener" style="color: #F8FAFC;">+92 306 1764247</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <span style="font-size: 0.72rem; color: #64748B; display: block;">Office Hours</span>
+                <span style="color: #CBD5E1;">Daily: 6:00 PM &ndash; 1:00 AM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 PIXORA DIGITAL STUDIO. All rights reserved.
+        </div>
+        <div class="footer-tagline-text">
+          Ideas Into Digital Experiences.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Project Detail Modal
+       ======================================================================== -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Project Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="assets/images/sialkot-sweets-hero.jpg" alt="Project Banner" class="modal-header-image" id="modalHeaderImg">
+      
+      <div class="modal-content-area">
+        <div class="modal-category" id="modalCategory">Category</div>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        <p class="modal-description" id="modalDescription">Detailed description goes here...</p>
+
+        <div class="modal-highlights">
+          <h4>Key Technical &amp; Business Deliverables</h4>
+          <ul id="modalHighlightsList"></ul>
+        </div>
+
+        <h4 style="font-size: 0.85rem; color: var(--navy-900); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Technology Stack</h4>
+        <div class="modal-tech-stack-row" id="modalTechStack"></div>
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="#contact" class="btn btn-primary btn-sm" onclick="document.getElementById('modalCloseBtn').click();">
+            <span>Inquire Similar Solution</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
