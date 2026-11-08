@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <linearGradient id="pixoraGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Geometric Studio Emblem -->
+  <g transform="translate(10, 12)">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="#1E293B" />
+    <rect x="1" y="1" width="52" height="52" rx="13" stroke="url(#pixoraGradLight)" stroke-width="1.5" fill="none" opacity="0.8" />
+    
+    <path d="M18 40V16H29C35 16 38.5 19.5 38.5 24.5C38.5 29.5 35 33 29 33H24V40H18Z" fill="url(#pixoraGradLight)" />
+    <circle cx="28.5" cy="24.5" r="3.5" fill="#FFFFFF" />
+    <circle cx="43" cy="12" r="3" fill="#38BDF8" />
+  </g>
+
+  <!-- Typography: PIXORA in white for dark background -->
+  <text x="78" y="44" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="1.5" fill="#FFFFFF">
+    PIX<tspan fill="#60A5FA">O</tspan>RA
+  </text>
+
+  <!-- Typography: DIGITAL STUDIO (underneath) -->
+  <text x="79" y="60" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" letter-spacing="4.5" fill="#94A3B8">
+    DIGITAL STUDIO
+  </text>
+</svg>

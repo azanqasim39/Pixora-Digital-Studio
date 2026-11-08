@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <linearGradient id="pixoraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="60%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="pixoraGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Geometric Studio Emblem (Abstract P + Pixel/Digital Node) -->
+  <g transform="translate(10, 12)">
+    <!-- Base Hexagon / Prism -->
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="#0F172A" />
+    <rect x="1" y="1" width="52" height="52" rx="13" stroke="url(#pixoraGrad)" stroke-width="1.5" fill="none" opacity="0.6" />
+    
+    <!-- Stylized Futuristic P Graphic -->
+    <path d="M18 40V16H29C35 16 38.5 19.5 38.5 24.5C38.5 29.5 35 33 29 33H24V40H18Z" fill="url(#pixoraGrad)" />
+    <!-- Inner Accent Pixel Dot -->
+    <circle cx="28.5" cy="24.5" r="3.5" fill="#FFFFFF" />
+    <!-- Dynamic Corner Accent -->
+    <circle cx="43" cy="12" r="3" fill="#06B6D4" />
+  </g>
+
+  <!-- Typography: PIXORA -->
+  <text x="78" y="44" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="1.5" fill="#0F172A">
+    PIX<tspan fill="#2563EB">O</tspan>RA
+  </text>
+
+  <!-- Typography: DIGITAL STUDIO (underneath) -->
+  <text x="79" y="60" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" letter-spacing="4.5" fill="#64748B">
+    DIGITAL STUDIO
+  </text>
+</svg>
